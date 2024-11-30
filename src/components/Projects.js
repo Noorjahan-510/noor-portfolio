@@ -7,14 +7,14 @@ const Projects = () => {
       title: "Personal Portfolio",
       description: "A personal portfolio built using React, JavaScript, and CSS. It showcases my skills, experience, and projects. The portfolio is fully responsive and provides easy navigation.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
-      link: "https://github.com/Noorjahan-510/Noor"
+      link: "https://github.com/Noorjahan-510/noor-portfolio"
     },
    
     {
       title: "Task Management System",
       description: "A task management system built with Java and Spring Boot, designed to help teams manage and track tasks efficiently. The app supports task creation, editing, and status updates.",
       technologies: ["Java", "Spring Boot", "MySQL"],
-      link: "https://github.com/your-repo"
+      link: "https://github.com/Noorjahan-510/"
     }
   ];
 

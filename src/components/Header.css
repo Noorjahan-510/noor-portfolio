@@ -1,106 +1,64 @@
 .header {
-    background-color: #333;
-    color: #ddd;
-    padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark background color */
+  color: #ddd;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Styling for header icons (LinkedIn and GitHub) */
+.header-icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.header-icons a {
+  text-decoration: none;
+  color: #ff6600; /* Highlight color for icons */
+  font-size: 1.5rem; /* Icon size */
+  transition: color 0.3s ease;
+}
+
+.header-icons a:hover {
+  color: #fff; /* Hover effect for icons */
+}
+
+/* Navigation links on the right */
+.header-nav {
+  display: flex;
+  gap: 15px; /* Space between navigation links */
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #ff6600; /* Highlight color for navigation links */
+  font-size: 1rem; /* Font size for links */
+  padding: 5px 10px; /* Padding for "tab" look */
+  border-radius: 5px;
+  background-color: #444; /* Tab background color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-nav a:hover {
+  background-color: #ff6600; /* Highlighted background on hover */
+  color: #fff; /* Text color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
-  
-  .header h1 {
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  .header h2 {
-    font-size: 1.3rem;
-    color: #ff6600;
-    margin-bottom: 20px;
-  } 
 
-  .image-container {
-    display: inline-block; /* Ensures the image is centered */
-    margin: 0 auto; /* Centers the image */
-  }
   
-  .profile-image {
-    max-width: 200px; /* Restricts the width of the image */
-    height: auto; /* Keeps the original aspect ratio */
-    border: 5px solid #fff; /* White border for contrast */
-    filter: grayscale(100%); /* Applies a grey theme */
-    transition: filter 0.3s ease;
-  }
-  
-  .profile-image:hover {
-    filter: grayscale(50%); /* Slight hover effect */
-  }
-  .download-button {
-    background-color: #ff6600; /* Orange background */
-    color: white; 
-    padding: 8px 12px; 
-    font-size: 0.6rem; 
-    border: none; 
-    cursor: pointer; 
-    margin-top: 15px; 
-    border-radius: 15px; 
-    width: auto; 
-    display: inline-block; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  .download-button:hover {
-    background-color: #ff9933; 
-  }
-  
+
   .header-icons {
-    position: absolute;
-    top: 30px;
-    left: 40px; /* Change to "left: 20px;" for top-left */
+    margin-bottom: 10px; /* Add spacing for alignment */
   }
-  
-  .header-icons a {
-    margin: 0 20px;
-    color: #fff;
-    font-size: 1.5rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    color: #ff6600;
-  }
-  
-  .header-icons a:hover {
-    color:  #fff; /* Highlight color */
-  }
-
-  .header-nav {
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    gap: 2px; /* Reduced gap between tabs */
-  }
-  
-  
-  
-   .header-nav a {
-    display: inline-block;
-    padding: 3px 8px;
-    background-color: #444; 
-    color: #ff6600;
-    font-size: 1rem;
-    border-radius: 8px;
-    text-decoration: none; 
-    transition: all 0.3s ease; 
-  } 
-  
-  .header-nav a:hover {
-    color: #fff; 
-  }
-  
-  @media (max-width: 768px) {
-    .header-nav {
-      flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
-      justify-content: center;
-      gap: 5px; /* Slightly larger gap for better readability on mobile */
-    }
-  
-    .header-nav a {
-      margin-bottom: 5px; /* Add minimal spacing between rows of tabs */
-    }
-  }
+}
