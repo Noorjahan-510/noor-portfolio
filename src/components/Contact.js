@@ -11,9 +11,8 @@ const Contact = () => {
         <div className="contact-info">
           <p>
           <p>Gurgaon, India</p>
-            <a href="https://www.linkedin.com/in/noorjahan-khatoon-05-oct/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
             <a href="mailto:noorjahankhatoon0510@gmail.com">noorjahankhatoon0510@gmail.com</a> | 
-            <a href="tel:+919899998888"> +91 8518836882</a>
+            <a href="tel:+918518836882"> +918518836882</a>
           </p>
           
         </div>
