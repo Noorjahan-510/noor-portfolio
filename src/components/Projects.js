@@ -14,11 +14,7 @@ const Projects = () => {
       title: "Task Management System",
       description: "A task management system built with Java and Spring Boot, designed to help teams manage and track tasks efficiently. The app supports task creation, editing, and status updates.",
       technologies: ["Java", "Spring Boot", "MySQL"],
-<<<<<<< HEAD
-      link: "https://github.com/Noorjahan-510/"
-=======
       link: "https://github.com/Noorjahan-510"
->>>>>>> 6c5f7bb09ba0df47d6319059bd01ddfd71f2264e
     }
   ];
 
