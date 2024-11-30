@@ -5,7 +5,7 @@ const Experience = () => {
   const experienceData = [
     {
       title: "Software Engineer",
-      company: "Infinite Computer Solution",
+      company: "Infinite Computer Solutions",
       location: "Gurgaon, India",
       duration: "Oct 2024 - Present",
       responsibilities: [
