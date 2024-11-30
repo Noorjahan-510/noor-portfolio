@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Personal Portfolio",
       description: "A personal portfolio built using React, JavaScript, and CSS. It showcases my skills, experience, and projects. The portfolio is fully responsive and provides easy navigation.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
-      link: "https://noor-portfolio-510.netlify.app/"
+      link: "https://github.com/Noorjahan-510/Noor"
     },
    
     {

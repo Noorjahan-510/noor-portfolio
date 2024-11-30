@@ -50,3 +50,57 @@
     background-color: #ff9933; 
   }
   
+  .header-icons {
+    position: absolute;
+    top: 30px;
+    left: 40px; /* Change to "left: 20px;" for top-left */
+  }
+  
+  .header-icons a {
+    margin: 0 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #ff6600;
+  }
+  
+  .header-icons a:hover {
+    color:  #fff; /* Highlight color */
+  }
+
+  .header-nav {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    gap: 2px; /* Reduced gap between tabs */
+  }
+  
+  
+  
+   .header-nav a {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #444; 
+    color: #ff6600;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+  } 
+  
+  .header-nav a:hover {
+    color: #fff; 
+  }
+  
+  @media (max-width: 768px) {
+    .header-nav {
+      flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
+      justify-content: center;
+      gap: 5px; /* Slightly larger gap for better readability on mobile */
+    }
+  
+    .header-nav a {
+      margin-bottom: 5px; /* Add minimal spacing between rows of tabs */
+    }
+  }

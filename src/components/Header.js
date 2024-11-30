@@ -1,10 +1,36 @@
 import React from "react";
 import './Header.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import profileImage from './assets/profile.jpg'; // Change this path based on where you store your image
 
 const Header = () => (
   <header className="header">
     <div className="container">
+    <div className="header-icons">
+          <a
+            href="https://www.linkedin.com/in/noorjahan-khatoon-05-oct/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          </a>
+          <a
+            href="https://github.com/Noorjahan-510"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} className="icon" />
+          </a>
+          
+      </div>
+      <nav className="header-nav">
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      
       <h1>Noorjahan Khatoon</h1>
       
          <h2> <strong>Full Stack Developer</strong></h2>
@@ -22,12 +48,7 @@ const Header = () => (
       <a href="/Noorjahan_Khatoon_Resume.docx" download>
         <button className="download-button">Download Resume</button>
       </a>
-      <nav>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      
     </div>
   </header>
 );

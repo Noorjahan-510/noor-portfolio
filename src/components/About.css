@@ -1,0 +1,13 @@
+.about {
+  background-color: #444;
+  color: #ccc;
+  border-top: 3px solid #555;
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
