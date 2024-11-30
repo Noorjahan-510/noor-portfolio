@@ -1,0 +1,83 @@
+.projects {
+  background-color: #333; /* Dark grey background */
+  color: #ddd; /* Light grey text */
+  padding: 50px 0;
+  color: #ff6600;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff; /* White heading text */
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Reduced spacing between the project cards */
+}
+
+.project-card {
+  background-color: #444; /* Slightly lighter grey for contrast */
+  padding: 20px;
+  margin: 10px; /* Reduced margin */
+  width: 30%; /* Fixed width for each project card */
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+  color: #fff; /* White text for project title */
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: .9rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  color: #ddd; /* Light grey for description text */
+}
+
+.project-card a {
+  color: #ff6600; /* Accent color for links */
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px; /* Adds spacing between letters */
+}
+
+.project-card a:hover {
+  color: #ff9933; /* Lighter orange on hover */
+}
+
+.project-card a:focus {
+  outline: none;
+  border: 2px solid #ff6600;
+}
+
+@media (max-width: 750px) {
+  .project-card {
+    width: 60%; /* Make cards wider on smaller screens */
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+    
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+}

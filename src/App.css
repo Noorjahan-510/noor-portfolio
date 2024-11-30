@@ -1,0 +1,46 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9933;
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 50px 0;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
