@@ -70,9 +70,6 @@
 @media (max-width: 750px) {
   .project-card {
     width: 60%; /* Make cards wider on smaller screens */
-    display: flex;
-    align-items: center;
-    text-align: center;
   }
 
   .project-card h3 {
