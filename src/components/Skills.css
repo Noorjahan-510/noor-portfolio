@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px; /* Space between skills */
+  gap: 10px;
   margin-top: 10px;
 }
 
@@ -22,16 +22,16 @@
   font-weight: bold;
   font-size: 1.2rem;
   color: #ff6600;
-  padding: 6px 12px; 
+  padding: 6px 12px;
   border: 2px solid #ff6600;
-  border-radius: 60%; /* Makes the skill button circular */
+  border-radius: 60%;
   transition: background-color 0.3s ease, color 0.3s ease;
-  display: flex; 
-  justify-content: center; /* Align text horizontally */
-  align-items: center; /* Align text vertically */
-  width: 50px; /* Set a fixed width for consistency */
-  height: 50px; /* Set a fixed height for consistency */
-  text-align: center; /* Ensure text is centered */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
 
 .skill:hover {
@@ -40,14 +40,12 @@
 }
 
 .skill img {
-  max-width: 50px; /* Logo size */
+  max-width: 50px;
   height: auto;
-  margin-bottom: 10px; /* Space between image and text */
-  transition: transform 0.3s ease; /* Slight hover effect for logos */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
 
-
-
 .skill:hover img {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }

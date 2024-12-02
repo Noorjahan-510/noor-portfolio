@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Dark background color */
+  background-color: #333; 
   color: #ddd;
   padding: 10px 20px;
   position: sticky;
@@ -10,45 +10,45 @@
   z-index: 1000;
 }
 
-/* Styling for header icons (LinkedIn and GitHub) */
+
 .header-icons {
   display: flex;
-  gap: 15px; /* Space between icons */
+  gap: 15px; 
 }
 
 .header-icons a {
   text-decoration: none;
-  color: #ff6600; /* Highlight color for icons */
-  font-size: 1.5rem; /* Icon size */
+  color: #ff6600; 
+  font-size: 1.5rem; 
   transition: color 0.3s ease;
 }
 
 .header-icons a:hover {
-  color: #fff; /* Hover effect for icons */
+  color: #fff; 
 }
 
-/* Navigation links on the right */
+
 .header-nav {
   display: flex;
-  gap: 15px; /* Space between navigation links */
+  gap: 15px;
 }
 
 .header-nav a {
   text-decoration: none;
-  color: #ff6600; /* Highlight color for navigation links */
-  font-size: 1rem; /* Font size for links */
-  padding: 5px 10px; /* Padding for "tab" look */
+  color: #ff6600; 
+  font-size: 1rem;
+  padding: 5px 10px;
   border-radius: 5px;
-  background-color: #444; /* Tab background color */
+  background-color: #444; 
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .header-nav a:hover {
-  background-color: #ff6600; /* Highlighted background on hover */
-  color: #fff; /* Text color on hover */
+  background-color: #ff6600; 
+  color: #fff; 
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -59,6 +59,6 @@
   
 
   .header-icons {
-    margin-bottom: 10px; /* Add spacing for alignment */
+    margin-bottom: 10px; 
   }
 }

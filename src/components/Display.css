@@ -1,105 +1,95 @@
-/* Body styling for the grey-black-white theme */
 body {
-    font-family: Arial, sans-serif;
-    color: #ddd; /* Light grey text */
-    background-color: #333; /* Dark grey background */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header text styles */
-  h1 {
-    text-align: center;
-    color: #fff; /* White color for the title */
-    font-size: 2.5rem;
-    margin: 20px 0;
-  }
-  
-  h2 {
-    text-align: center;
-    color: #ff6600; /* Highlighted orange for subtitle */
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Profile container */
+  font-family: Arial, sans-serif;
+  color: #ddd;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #ff6600;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 200px;
+  height: auto;
+  border: 5px solid #fff;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.profile-image:hover {
+  filter: grayscale(50%);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin: 15px 20px;
+}
+
+strong {
+  color: #ff6600;
+}
+
+.download-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 12px;
+  font-size: 0.6rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 15px;
+  width: auto;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #ff9933;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
   .profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
-    max-width: 900px; /* Keeps the layout centered */
-    text-align: center;
-  }
-  
-  /* Profile image styles */
-  .profile-image {
-    max-width: 200px; /* Restricts the width of the image */
-    height: auto; /* Keeps the original aspect ratio */
-    border: 5px solid #fff; /* White border for contrast */
-    filter: grayscale(100%); /* Applies a grey theme */
-    transition: filter 0.3s ease;
-  }
-  .profile-image:hover {
-    filter: grayscale(50%); /* Slight hover effect */
-  }
-  
-  /* Paragraph styling */
-  p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #ddd; /* Light grey text */
-    margin: 15px 20px;
-  }
-  
-  strong {
-    color: #ff6600; /* Orange highlight for important terms */
-  }
-  
-  /* Button styles */
-  .download-button {
-    background-color: #ff6600; /* Orange background */
-    color: white; 
-    padding: 8px 12px; 
-    font-size: 0.6rem; 
-    border: none; 
-    cursor: pointer; 
-    margin-top: 15px; 
-    border-radius: 15px; 
-    width: auto; 
-    display: inline-block; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  .download-button:hover {
-    background-color: #ff9933; /* Lighter orange on hover */
-  }
-  
-  /* Add this style for centering */
-  .button-container {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-   /* Add spacing above the button */
-  }
-  
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 768px) {
-    .profile-container {
       padding: 0 15px;
-    }
-  
-    p {
-      font-size: 0.9rem;
-    }
-  
-    h1 {
-      font-size: 2rem;
-    }
-  
-    h2 {
-      font-size: 1.5rem;
-    }
   }
-  
+
+  p {
+      font-size: 0.9rem;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+}

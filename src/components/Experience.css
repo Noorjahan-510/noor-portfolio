@@ -1,13 +1,13 @@
 .experience {
-  background-color: #333; /* Dark grey background */
+  background-color: #333;
   padding: 50px 0;
-  color: #ddd; /* Light grey text */
+  color: #ddd;
 }
 
 .experience h2 {
   font-size: 2rem;
   text-align: center;
-  color: #fff; /* White heading text */
+  color: #fff; 
   margin-bottom: 30px;
   letter-spacing: 2px;
 }
@@ -19,18 +19,18 @@
 }
 
 .experience-item {
-  background-color: #444; /* Slightly lighter grey for contrast */
+  background-color: #444; 
   padding: 20px;
   margin: 15px;
   width: 80%;
   max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
 }
 
 .experience-item h3 {
   font-size: 1.2rem;
-  color: #fff; /* White text for job titles */
+  color: #fff; 
   margin-bottom: 10px;
 }
 
@@ -38,16 +38,16 @@
   font-size: 0.9rem;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #ddd; /* Light grey for text */
+  color: #ddd;
 }
 .experience-item ul li {
-  font-size: 0.9rem; /* Slightly smaller font for bullet points */
-  color: #ccc; /* Slightly lighter text for differentiation */
-  margin-bottom: 8px; /* Spacing between bullet points */
+  font-size: 0.9rem;
+  color: #ccc; 
+  margin-bottom: 8px; 
 }
 
 .experience-item strong {
-  color: #ff6600; /* Highlighted color for company names */
+  color: #ff6600; 
 }
 
 @media (max-width: 768px) {
