@@ -9,11 +9,12 @@ const Experience = () => {
       location: "Gurgaon, India",
       duration: "Oct 2024 - Present",
       responsibilities: [
-        "Developed and maintained enterprise-level applications using Core Java and Spring Boot.",
-        "Independently managed assignments, taking full ownership to ensure timely and high-quality deliverables.",
-        "Converted customer input data in JSON/XML to transform into UIV.",
-        "Analyzed and debugged the root cause of issues.",
-        "Customized adapters according to specific requirements."
+        "Developing and maintaining UIV Adapter using Core Java and Spring Boot.",
+        "Converting customer input data in JSON/XML to transform into UIV.",
+        "Creating relation (Association) between the entities.",
+        "Analyzing and debugging the root cause of the issues.",
+        "Adapter customization according to the requirements.",
+        "Analyzing and debugging the root cause of the issues."
       ]
     },
     {
@@ -22,15 +23,17 @@ const Experience = () => {
       location: "Gurgaon, India",
       duration: "Aug 2021 - Sep 2024",
       responsibilities: [
-        "Developed and maintained enterprise-level applications using Core Java and Spring Boot.",
-        "Independently managed assignments, ensuring timely and high-quality deliverables.",
+        "Worked in an inventory-based project and developed UIV Custom Actions using Freemarker.",
+        "Implemented Java plugins and integrated with the Freemarker code.",
+        "Interacted with NoSQL DB and wrote CQL queries to retrieve inventory data.",
+        "Independently managed assignments, taking full ownership to ensure timely and high-quality deliverables.",
         "Utilized IDEs like Eclipse, STS, IntelliJ IDEA, and VS Code for efficient development and debugging.",
         "Worked closely with cross-functional teams to gather requirements, troubleshoot issues, and deliver high-quality software solutions.",
         "Used version control systems (like Git/Gerrit) to manage and track changes to the codebase.",
-        "Facilitated comprehensive Knowledge Transfer (KT) processes for new joiners, ensuring a smooth onboarding experience.",
+        "Facilitated a comprehensive Knowledge Transfer (KT) process for new joiners to ensure a smooth onboarding experience and quick integration into their roles.",
         "Conducted code reviews and ensured adherence to quality standards.",
-        "Stayed updated with the latest industry trends and technologies in the Java and Spring Boot ecosystem."
-      ]
+        "Stayed updated with the latest industry trends and technologies in Java and the Spring Boot ecosystem."
+        ]
     }
   ];
 
