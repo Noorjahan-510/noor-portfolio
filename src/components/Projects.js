@@ -12,11 +12,9 @@ const Projects = () => {
     {
       title: "Task Management System",
       description: "A task management system built with Java and Spring Boot, designed to help teams manage and track tasks efficiently. The app supports task creation, editing, and status updates.",
-      technologies: {
-        Backend: ["Java", "Spring Boot", "MySQL", "JWT for authentication"],
-        Frontend: ["ReactJS", "Axios", "React Router", "styled-components"]
-      },
-      link: "https://github.com/Noorjahan-510"
+      technologies: `Backend: [Java, Spring Boot, MySQL]
+Frontend: [ReactJS, Axios, React Router, styled-components]`,
+      link: "https://github.com/Noorjahan-510/"
     }
   ];
 
@@ -29,16 +27,13 @@ const Projects = () => {
             <div key={index} className="project-card">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              {typeof project.technologies === 'object' ? (
-                <>
-                  <p><strong>Technologies:</strong></p>
-                  <ul>
-                    <li><strong>Backend:</strong> {project.technologies.Backend.join(', ')}</li>
-                    <li><strong>Frontend:</strong> {project.technologies.Frontend.join(', ')}</li>
-                  </ul>
-                </>
+              <p><strong>Technologies:</strong></p>
+              {typeof project.technologies === 'string' ? (
+                project.technologies.split('\n').map((line, i) => (
+                  <p key={i}>{line}</p>
+                ))
               ) : (
-                <p><strong>Technologies:</strong> {project.technologies.join(', ')}</p>
+                <p>{project.technologies.join(', ')}</p>
               )}
               <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
