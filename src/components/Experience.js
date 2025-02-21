@@ -9,7 +9,7 @@ const Experience = () => {
       location: "Gurgaon, India",
       duration: "Oct 2024 - Present",
       responsibilities: [
-        "Developing and maintaining UIV Adapter using Core Java and Spring Boot.",
+        "Developing and maintaining UIV Discovery Adapters using Core Java and Spring Boot.",
         "Converting customer input data in JSON/XML to transform into UIV.",
         "Creating relation (Association) between the entities.",
         "Analyzing and debugging the root cause of the issues.",
@@ -23,16 +23,16 @@ const Experience = () => {
       location: "Gurgaon, India",
       duration: "Aug 2021 - Sep 2024",
       responsibilities: [
-        "Worked in an inventory-based project and developed UIV Custom Actions using Freemarker.",
-        "Implemented Java plugins and integrated with the Freemarker code.",
-        "Interacted with NoSQL DB and wrote CQL queries to retrieve inventory data.",
-        "Independently managed assignments, taking full ownership to ensure timely and high-quality deliverables.",
-        "Utilized IDEs like Eclipse, STS, IntelliJ IDEA, and VS Code for efficient development and debugging.",
-        "Worked closely with cross-functional teams to gather requirements, troubleshoot issues, and deliver high-quality software solutions.",
-        "Used version control systems (like Git/Gerrit) to manage and track changes to the codebase.",
-        "Facilitated a comprehensive Knowledge Transfer (KT) process for new joiners to ensure a smooth onboarding experience and quick integration into their roles.",
-        "Conducted code reviews and ensured adherence to quality standards.",
-        "Stayed updated with the latest industry trends and technologies in Java and the Spring Boot ecosystem."
+      "Developed UIV Custom Actions using Java, Spring, and Freemarker Template Language.",
+      "Designed and implemented RESTful APIs for data processing and system interactions.",
+      "Integrated Java methods into business logic for enhanced functionality.",
+      "Conducted API testing using Postman, ensuring proper request handling and response validation.",
+      "Managed and optimized database operations, including CRUD activities, ensuring data integrity.",
+      "Interacted with NoSQL DB and wrote CQL queries to retrieve inventory data.",
+      "Independently managed assignments, taking full ownership to ensure timely and high-quality deliverables.",
+      "Utilized IDEs like Eclipse, STS, IntelliJ IDEA, and VS Code for efficient development and debugging.",
+      "Worked closely with cross-functional teams to gather requirements, troubleshoot issues, and deliver high-quality software solutions.",
+      "Used version control systems (like Git/Gerrit) to manage and track changes to the codebase."
         ]
     }
   ];

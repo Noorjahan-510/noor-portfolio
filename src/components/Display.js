@@ -15,7 +15,7 @@ export default function Display() {
                 <p>
                     I am a skilled software developer with expertise in backend and frontend technologies.
                     With a strong background in <strong>Java</strong> and <strong>Spring Boot</strong> for building robust applications,
-                    I also have hands-on experience in <strong>JavaScript</strong>, <strong>SQL</strong>, and <strong>NoSQL</strong> databases.
+                    I also have hands-on experience in <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>SQL</strong>, and <strong>NoSQL</strong> databases.
                     My passion lies in creating scalable, efficient systems and ensuring seamless user experiences through both backend and frontend integration.
                 </p>
                 <div class="button-container">

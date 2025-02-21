@@ -5,8 +5,8 @@ import springBootLogo from './assets/spring-boot-logo.png';
 import jsLogo from './assets/javascript-logo.webp';
 import sqlLogo from './assets/sql-logo.png';
 import neo4jLogo from './assets/neo4j-logo.png';
-import htmlLogo from './assets/HTML_Logo.png';
-import cssLogo from './assets/css_logo.png';
+import htmlLogo from './assets/Html.webp';
+import cssLogo from './assets/css.webp';
 
 const Skills = () => (
   <section id="skills" className="skills">
