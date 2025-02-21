@@ -13,8 +13,7 @@ const Experience = () => {
         "Converting customer input data in JSON/XML to transform into UIV.",
         "Creating relation (Association) between the entities.",
         "Analyzing and debugging the root cause of the issues.",
-        "Adapter customization according to the requirements.",
-        "Analyzing and debugging the root cause of the issues."
+        "Adapter customization according to the requirements."
       ]
     },
     {
